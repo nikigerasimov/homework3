@@ -4,7 +4,8 @@ import random
 def test_greeting():
     name = "Анна"
     age = 25
-    output = print(f"Привет, {name}! Тебе {age} лет.")
+    output = f"Привет, {name}! Тебе {age} лет."
+    print(output)
 
     # Проверяем результат
     assert output == "Привет, Анна! Тебе 25 лет."
